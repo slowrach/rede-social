@@ -12,7 +12,8 @@ html, body {
 }
 
 body {
-    background: url('../imagens/fundo-4.jpg') no-repeat top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../imagens/fundo-3.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -34,12 +35,13 @@ main {
 
 #botoes {
     text-align: right;
+    padding-right: 5px;
 }
 
 #botoes > a > img:hover {
-    border: 3px solid #ff0000ae;
+    border: 3.5px solid #befc37ae;
     transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px #00000076;
+    box-shadow: 3px 3px 10px #fbf8f84a;
     transition: transform 0.5s, border 0.5s;
 }
 
@@ -54,7 +56,7 @@ main {
 #tela {
     position: relative;
     top: 80px;
-    left: 22px;
-    width: 268px;
+    left: 21px;
+    width: 269px;
     height: 472px;
 }
